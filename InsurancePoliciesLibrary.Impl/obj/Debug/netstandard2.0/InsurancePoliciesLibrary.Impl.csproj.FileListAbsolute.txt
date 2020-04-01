@@ -1,0 +1,14 @@
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesLibrary.Impl\bin\Debug\netstandard2.0\InsurancePoliciesLibrary.Impl.deps.json
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesLibrary.Impl\bin\Debug\netstandard2.0\InsurancePoliciesLibrary.Impl.dll
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesLibrary.Impl\bin\Debug\netstandard2.0\InsurancePoliciesLibrary.Impl.pdb
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesLibrary.Impl\bin\Debug\netstandard2.0\InsurancePoliciesLibrary.Contracts.dll
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesLibrary.Impl\bin\Debug\netstandard2.0\InsurancePoliciesLibrary.Contracts.pdb
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesLibrary.Impl\obj\Debug\netstandard2.0\InsurancePoliciesLibrary.Impl.csprojAssemblyReference.cache
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesLibrary.Impl\obj\Debug\netstandard2.0\InsurancePoliciesLibrary.Impl.csproj.CoreCompileInputs.cache
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesLibrary.Impl\obj\Debug\netstandard2.0\InsurancePoliciesLibrary.Impl.AssemblyInfoInputs.cache
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesLibrary.Impl\obj\Debug\netstandard2.0\InsurancePoliciesLibrary.Impl.AssemblyInfo.cs
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesLibrary.Impl\obj\Debug\netstandard2.0\InsurancePoliciesLibrary.Impl.csproj.CopyComplete
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesLibrary.Impl\obj\Debug\netstandard2.0\InsurancePoliciesLibrary.Impl.dll
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesLibrary.Impl\obj\Debug\netstandard2.0\InsurancePoliciesLibrary.Impl.pdb
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesLibrary.Impl\bin\Debug\netstandard2.0\InsurancePoliciesRepository.Contracts.dll
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesLibrary.Impl\bin\Debug\netstandard2.0\InsurancePoliciesRepository.Contracts.pdb

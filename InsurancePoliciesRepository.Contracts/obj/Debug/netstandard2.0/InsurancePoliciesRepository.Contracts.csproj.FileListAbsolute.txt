@@ -1,0 +1,9 @@
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesRepository.Contracts\bin\Debug\netstandard2.0\InsurancePoliciesRepository.Contracts.deps.json
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesRepository.Contracts\bin\Debug\netstandard2.0\InsurancePoliciesRepository.Contracts.dll
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesRepository.Contracts\bin\Debug\netstandard2.0\InsurancePoliciesRepository.Contracts.pdb
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesRepository.Contracts\obj\Debug\netstandard2.0\InsurancePoliciesRepository.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesRepository.Contracts\obj\Debug\netstandard2.0\InsurancePoliciesRepository.Contracts.AssemblyInfoInputs.cache
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesRepository.Contracts\obj\Debug\netstandard2.0\InsurancePoliciesRepository.Contracts.AssemblyInfo.cs
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesRepository.Contracts\obj\Debug\netstandard2.0\InsurancePoliciesRepository.Contracts.dll
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesRepository.Contracts\obj\Debug\netstandard2.0\InsurancePoliciesRepository.Contracts.pdb
+C:\Users\RUDY\Documents\MyProjects\Altran\InsurancePoliciesWebAPI\InsurancePoliciesWebAPI\InsurancePoliciesRepository.Contracts\obj\Debug\netstandard2.0\InsurancePoliciesRepository.Contracts.csprojAssemblyReference.cache

@@ -1,0 +1,1653 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Microsoft.AspNet.Mvc/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.4, 3.3.0)",
+          "Microsoft.AspNet.WebPages": "[3.2.4, 3.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc.es/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "[5.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Mvc.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor.es/3.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Razor.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client.es/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "[5.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Net.Http.Formatting.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.4"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core.es/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Http.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.WebHost/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.4, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.WebHost.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.WebHost.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.WebHost.es/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.WebHost": "[5.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Http.WebHost.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.4, 3.3.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages.es/3.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebPages": "[3.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Helpers.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/System.Web.WebPages.Deployment.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/System.Web.WebPages.Razor.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/System.Web.WebPages.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "MSTest.TestAdapter/1.2.0": {
+        "type": "package",
+        "build": {
+          "build/net45/MSTest.TestAdapter.props": {},
+          "build/net45/MSTest.TestAdapter.targets": {}
+        }
+      },
+      "MSTest.TestFramework/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NMock3/3.5.44": {
+        "type": "package",
+        "compile": {
+          "lib/net40/NMock3.dll": {}
+        },
+        "runtime": {
+          "lib/net40/NMock3.dll": {}
+        }
+      },
+      "InsurancePolicies.WebApi/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "InsurancePoliciesLibrary.Contracts": "1.0.0",
+          "InsurancePoliciesLibrary.Impl": "1.0.0",
+          "InsurancePoliciesRepository.Contracts": "1.0.0",
+          "InsurancePoliciesRepository.Impl": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InsurancePolicies.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePolicies.WebApi.dll": {}
+        }
+      },
+      "InsurancePoliciesLibrary.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/InsurancePoliciesLibrary.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePoliciesLibrary.Contracts.dll": {}
+        }
+      },
+      "InsurancePoliciesLibrary.Impl/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "InsurancePoliciesLibrary.Contracts": "1.0.0",
+          "InsurancePoliciesRepository.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InsurancePoliciesLibrary.Impl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePoliciesLibrary.Impl.dll": {}
+        }
+      },
+      "InsurancePoliciesRepository.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/InsurancePoliciesRepository.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePoliciesRepository.Contracts.dll": {}
+        }
+      },
+      "InsurancePoliciesRepository.Impl/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "InsurancePoliciesRepository.Contracts": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/InsurancePoliciesRepository.Impl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePoliciesRepository.Impl.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "Microsoft.AspNet.Mvc/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.4, 3.3.0)",
+          "Microsoft.AspNet.WebPages": "[3.2.4, 3.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc.es/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "[5.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Mvc.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor.es/3.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Razor.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client.es/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "[5.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Net.Http.Formatting.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.4"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core.es/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Http.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.WebHost/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.4, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.WebHost.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.WebHost.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.WebHost.es/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.WebHost": "[5.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Http.WebHost.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.4, 3.3.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages.es/3.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebPages": "[3.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Helpers.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/System.Web.WebPages.Deployment.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/System.Web.WebPages.Razor.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/System.Web.WebPages.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "MSTest.TestAdapter/1.2.0": {
+        "type": "package",
+        "build": {
+          "build/net45/MSTest.TestAdapter.props": {},
+          "build/net45/MSTest.TestAdapter.targets": {}
+        }
+      },
+      "MSTest.TestFramework/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NMock3/3.5.44": {
+        "type": "package",
+        "compile": {
+          "lib/net40/NMock3.dll": {}
+        },
+        "runtime": {
+          "lib/net40/NMock3.dll": {}
+        }
+      },
+      "InsurancePolicies.WebApi/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "InsurancePoliciesLibrary.Contracts": "1.0.0",
+          "InsurancePoliciesLibrary.Impl": "1.0.0",
+          "InsurancePoliciesRepository.Contracts": "1.0.0",
+          "InsurancePoliciesRepository.Impl": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InsurancePolicies.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePolicies.WebApi.dll": {}
+        }
+      },
+      "InsurancePoliciesLibrary.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/InsurancePoliciesLibrary.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePoliciesLibrary.Contracts.dll": {}
+        }
+      },
+      "InsurancePoliciesLibrary.Impl/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "InsurancePoliciesLibrary.Contracts": "1.0.0",
+          "InsurancePoliciesRepository.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InsurancePoliciesLibrary.Impl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePoliciesLibrary.Impl.dll": {}
+        }
+      },
+      "InsurancePoliciesRepository.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/InsurancePoliciesRepository.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePoliciesRepository.Contracts.dll": {}
+        }
+      },
+      "InsurancePoliciesRepository.Impl/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "InsurancePoliciesRepository.Contracts": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/InsurancePoliciesRepository.Impl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePoliciesRepository.Impl.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "Microsoft.AspNet.Mvc/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.4, 3.3.0)",
+          "Microsoft.AspNet.WebPages": "[3.2.4, 3.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc.es/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "[5.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Mvc.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor.es/3.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Razor.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client.es/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "[5.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Net.Http.Formatting.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.4"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core.es/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Http.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.WebHost/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.4, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.WebHost.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.WebHost.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.WebHost.es/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.WebHost": "[5.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Http.WebHost.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.4, 3.3.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages.es/3.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebPages": "[3.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Helpers.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/System.Web.WebPages.Deployment.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/System.Web.WebPages.Razor.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/System.Web.WebPages.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "MSTest.TestAdapter/1.2.0": {
+        "type": "package",
+        "build": {
+          "build/net45/MSTest.TestAdapter.props": {},
+          "build/net45/MSTest.TestAdapter.targets": {}
+        }
+      },
+      "MSTest.TestFramework/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NMock3/3.5.44": {
+        "type": "package",
+        "compile": {
+          "lib/net40/NMock3.dll": {}
+        },
+        "runtime": {
+          "lib/net40/NMock3.dll": {}
+        }
+      },
+      "InsurancePolicies.WebApi/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "InsurancePoliciesLibrary.Contracts": "1.0.0",
+          "InsurancePoliciesLibrary.Impl": "1.0.0",
+          "InsurancePoliciesRepository.Contracts": "1.0.0",
+          "InsurancePoliciesRepository.Impl": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InsurancePolicies.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePolicies.WebApi.dll": {}
+        }
+      },
+      "InsurancePoliciesLibrary.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/InsurancePoliciesLibrary.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePoliciesLibrary.Contracts.dll": {}
+        }
+      },
+      "InsurancePoliciesLibrary.Impl/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "InsurancePoliciesLibrary.Contracts": "1.0.0",
+          "InsurancePoliciesRepository.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InsurancePoliciesLibrary.Impl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePoliciesLibrary.Impl.dll": {}
+        }
+      },
+      "InsurancePoliciesRepository.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/InsurancePoliciesRepository.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePoliciesRepository.Contracts.dll": {}
+        }
+      },
+      "InsurancePoliciesRepository.Impl/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "InsurancePoliciesRepository.Contracts": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/InsurancePoliciesRepository.Impl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePoliciesRepository.Impl.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "Microsoft.AspNet.Mvc/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.4, 3.3.0)",
+          "Microsoft.AspNet.WebPages": "[3.2.4, 3.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc.es/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "[5.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Mvc.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor.es/3.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Razor.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client.es/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "[5.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Net.Http.Formatting.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.4"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core.es/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Http.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.WebHost/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.4, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.WebHost.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.WebHost.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.WebHost.es/5.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.WebHost": "[5.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Http.WebHost.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.4, 3.3.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages.es/3.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebPages": "[3.2.4]"
+        },
+        "resource": {
+          "lib/net45/es/System.Web.Helpers.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/System.Web.WebPages.Deployment.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/System.Web.WebPages.Razor.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/System.Web.WebPages.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "MSTest.TestAdapter/1.2.0": {
+        "type": "package",
+        "build": {
+          "build/net45/MSTest.TestAdapter.props": {},
+          "build/net45/MSTest.TestAdapter.targets": {}
+        }
+      },
+      "MSTest.TestFramework/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NMock3/3.5.44": {
+        "type": "package",
+        "compile": {
+          "lib/net40/NMock3.dll": {}
+        },
+        "runtime": {
+          "lib/net40/NMock3.dll": {}
+        }
+      },
+      "InsurancePolicies.WebApi/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "InsurancePoliciesLibrary.Contracts": "1.0.0",
+          "InsurancePoliciesLibrary.Impl": "1.0.0",
+          "InsurancePoliciesRepository.Contracts": "1.0.0",
+          "InsurancePoliciesRepository.Impl": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InsurancePolicies.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePolicies.WebApi.dll": {}
+        }
+      },
+      "InsurancePoliciesLibrary.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/InsurancePoliciesLibrary.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePoliciesLibrary.Contracts.dll": {}
+        }
+      },
+      "InsurancePoliciesLibrary.Impl/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "InsurancePoliciesLibrary.Contracts": "1.0.0",
+          "InsurancePoliciesRepository.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InsurancePoliciesLibrary.Impl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePoliciesLibrary.Impl.dll": {}
+        }
+      },
+      "InsurancePoliciesRepository.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/InsurancePoliciesRepository.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePoliciesRepository.Contracts.dll": {}
+        }
+      },
+      "InsurancePoliciesRepository.Impl/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "InsurancePoliciesRepository.Contracts": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/InsurancePoliciesRepository.Impl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsurancePoliciesRepository.Impl.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNet.Mvc/5.2.4": {
+      "sha512": "Enl//Q98M1+A5o26GlPtbtfWiGVNrLvLSFRbfDc14CG6UQn7o4Xux4CXuMAJkDqaRfHXQWsssumsPofwJoiQVw==",
+      "type": "package",
+      "path": "microsoft.aspnet.mvc/5.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Web.config.install.xdt",
+        "Content/Web.config.uninstall.xdt",
+        "lib/net45/System.Web.Mvc.dll",
+        "lib/net45/System.Web.Mvc.xml",
+        "microsoft.aspnet.mvc.5.2.4.nupkg.sha512",
+        "microsoft.aspnet.mvc.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Mvc.es/5.2.4": {
+      "sha512": "yrxqkjLSTpV5H+3Ykhl6Euv0SnaLHAXNHXMMCbc6EgNKgpzwwicxTESLcWlI5XDioquYIKdZEbAGAjsg+klVdw==",
+      "type": "package",
+      "path": "microsoft.aspnet.mvc.es/5.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/es/System.Web.Mvc.resources.dll",
+        "lib/net45/es/System.Web.Mvc.xml",
+        "microsoft.aspnet.mvc.es.5.2.4.nupkg.sha512",
+        "microsoft.aspnet.mvc.es.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Razor/3.2.4": {
+      "sha512": "yqSkHUZNjR01MO2NbpXIfjlUEFJqw3xcT57Fc5orJryZlzgAVMUluOsDW2jyGkDg8/Xv91/RQ+0NNz4kinfGhQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.razor/3.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Web.Razor.dll",
+        "lib/net45/System.Web.Razor.xml",
+        "microsoft.aspnet.razor.3.2.4.nupkg.sha512",
+        "microsoft.aspnet.razor.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Razor.es/3.2.4": {
+      "sha512": "rbBXanDsaGxqUzlLRwyBnD7RvuBnNyLq+3oh6ooLsbrylmgv2xP9i/g92ZgfdBiwQucDAK2e7RmqQw1OTQfU/w==",
+      "type": "package",
+      "path": "microsoft.aspnet.razor.es/3.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/es/System.Web.Razor.resources.dll",
+        "lib/net45/es/system.web.razor.xml",
+        "microsoft.aspnet.razor.es.3.2.4.nupkg.sha512",
+        "microsoft.aspnet.razor.es.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.2.4": {
+      "sha512": "OdBVC2bQWkf9qDd7Mt07ev4SwIdu6VmLBMTWC0D5cOP/HWSXyv/77otwtXVrAo42duNjvXOjzjP5oOI9m1+DTQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/netstandard2.0/System.Net.Http.Formatting.dll",
+        "lib/netstandard2.0/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.4.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client.es/5.2.4": {
+      "sha512": "O/lcROPdX9qgeP2cQm4HVxhQdD/WP1IG/i4LbzDXPPQmM59ypPfqBMHjNVphpGN7XgeWMAO5VA1TgPjkbnFxmg==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client.es/5.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/es/System.Net.Http.Formatting.resources.dll",
+        "lib/net45/es/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.es.5.2.4.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.es.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.4": {
+      "sha512": "rbLh178vmOWxhFQgiVkKmZyG53XEdyBZJbCsV36a4VxokIBzSRYUaMkXWEwJTy83PoHhPiDHNQFN3A3BQzwhtg==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.5.2.4.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core.es/5.2.4": {
+      "sha512": "HnfiboXGzS1dLL8t/cdPuN9T5k8g7zZSxPerwe8GmZDDzf9PIZgCmXXv/ewtmovEPqzFqC/tfK3Js/NXP2jD5A==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core.es/5.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/es/System.Web.Http.resources.dll",
+        "lib/net45/es/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.es.5.2.4.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.es.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.WebHost/5.2.4": {
+      "sha512": "lTc0tMsblsm+xYBpJgCyA3uS4IZA7oo+vGkdO69S+QqZZNIv84UXwM4UPJP1MDR0BHYQVlLGZMxeqvo6z9oKOQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.webhost/5.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Web.Http.WebHost.dll",
+        "lib/net45/System.Web.Http.WebHost.xml",
+        "microsoft.aspnet.webapi.webhost.5.2.4.nupkg.sha512",
+        "microsoft.aspnet.webapi.webhost.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.WebHost.es/5.2.4": {
+      "sha512": "DWURz5s0YKr2r+iiLKdK5k0kIQdfXasKTQrycZ67LD8CE2dQXcQZ0twMbUFZAxmdfz3F5BsodwrJy4zdi6aXBg==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.webhost.es/5.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/es/System.Web.Http.WebHost.resources.dll",
+        "lib/net45/es/System.Web.Http.WebHost.xml",
+        "microsoft.aspnet.webapi.webhost.es.5.2.4.nupkg.sha512",
+        "microsoft.aspnet.webapi.webhost.es.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebPages/3.2.4": {
+      "sha512": "lhYQ5ZeK/a+pgA2WN/Ci6Qb3WqnDOAJ3OmEdsLDH/pJwHqKYHYmjpl2Xeot9DUDZy4GP1MR9mYrr/3u6SAdrmQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webpages/3.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Web.config.install.xdt",
+        "Content/Web.config.uninstall.xdt",
+        "lib/net45/System.Web.Helpers.dll",
+        "lib/net45/System.Web.Helpers.xml",
+        "lib/net45/System.Web.WebPages.Deployment.dll",
+        "lib/net45/System.Web.WebPages.Deployment.xml",
+        "lib/net45/System.Web.WebPages.Razor.dll",
+        "lib/net45/System.Web.WebPages.Razor.xml",
+        "lib/net45/System.Web.WebPages.dll",
+        "lib/net45/System.Web.WebPages.xml",
+        "microsoft.aspnet.webpages.3.2.4.nupkg.sha512",
+        "microsoft.aspnet.webpages.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebPages.es/3.2.4": {
+      "sha512": "0J70Objm/ppU4UkwNXA4FcZReZTXHJmQN2TPRj17PkBYaLu3D1D00Nfu++A6y9TL8Y2nUgu2I/XYZ6jO5HSKgg==",
+      "type": "package",
+      "path": "microsoft.aspnet.webpages.es/3.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/es/System.Web.Helpers.resources.dll",
+        "lib/net45/es/System.Web.WebPages.Deployment.resources.dll",
+        "lib/net45/es/System.Web.WebPages.Razor.resources.dll",
+        "lib/net45/es/System.Web.WebPages.resources.dll",
+        "lib/net45/es/system.web.helpers.xml",
+        "lib/net45/es/system.web.webpages.deployment.xml",
+        "lib/net45/es/system.web.webpages.razor.xml",
+        "lib/net45/es/system.web.webpages.xml",
+        "microsoft.aspnet.webpages.es.3.2.4.nupkg.sha512",
+        "microsoft.aspnet.webpages.es.nuspec"
+      ]
+    },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "sha512": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "type": "package",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Web.Infrastructure.dll",
+        "microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+        "microsoft.web.infrastructure.nuspec"
+      ]
+    },
+    "MSTest.TestAdapter/1.2.0": {
+      "sha512": "n0xgVkGNisHCHJNTfDBQBWsp3pdFMEkvex3ah7ybAa4NEIXc+rp1Kpa4tsScTNZKH0uzpR6BZ14sJvtwPm4VgQ==",
+      "type": "package",
+      "path": "mstest.testadapter/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "build/_common/cs/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/cs/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/de/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/de/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/es/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/es/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/fr/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/fr/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/it/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/it/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/ja/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/ja/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/ko/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/ko/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/pl/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/pl/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/pt/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/pt/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/ru/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/ru/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/tr/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/tr/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/zh-Hans/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/zh-Hans/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/zh-Hant/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/zh-Hant/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/net45/MSTest.TestAdapter.props",
+        "build/net45/MSTest.TestAdapter.targets",
+        "build/netcoreapp1.0/MSTest.TestAdapter.props",
+        "build/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll",
+        "build/uap10.0/MSTest.TestAdapter.props",
+        "build/uap10.0/MSTest.TestAdapter.targets",
+        "build/uap10.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll",
+        "mstest.testadapter.1.2.0.nupkg.sha512",
+        "mstest.testadapter.nuspec"
+      ]
+    },
+    "MSTest.TestFramework/1.2.0": {
+      "sha512": "8MLtlVC0UrqrMeE7V4VmSEFiApgvtUHLizJv0W1DTCOrxyY4YPhlbcClUkLtw4I5sD5P/YWP2S+rL3/MW2pM3Q==",
+      "type": "package",
+      "path": "mstest.testframework/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/net45/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/netstandard1.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/uap10.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "mstest.testframework.1.2.0.nupkg.sha512",
+        "mstest.testframework.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/11.0.1": {
+      "sha512": "pNN4l+J6LlpIvHOeNdXlwxv39NPJ2B5klz+Rd2UQZIx30Squ5oND1Yy3wEAUoKn0GPUj6Yxt9lxlYWQqfZcvKg==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "NMock3/3.5.44": {
+      "sha512": "m1qMzJVQ17xukk6Glbb+gLTL67Mn/0fF5VG3nJEIOaZXSmSU9V9wh9L2wxIOCbHkssm5s1A1QuKWfyLzBtUftA==",
+      "type": "package",
+      "path": "nmock3/3.5.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/NMock3/NMock3 Cheat Sheet.pdf",
+        "content/NMock3/NMockTest.cs",
+        "lib/net35/NMock3.dll",
+        "lib/net35/NMock3.xml",
+        "lib/net40/NMock3.dll",
+        "lib/net40/NMock3.xml",
+        "lib/sl40/NMock3.dll",
+        "lib/sl40/NMock3.xml",
+        "nmock3.3.5.44.nupkg.sha512",
+        "nmock3.nuspec"
+      ]
+    },
+    "InsurancePolicies.WebApi/1.0.0": {
+      "type": "project",
+      "path": "../InsurancePolicies.WebApi/InsurancePolicies.WebApi.csproj",
+      "msbuildProject": "../InsurancePolicies.WebApi/InsurancePolicies.WebApi.csproj"
+    },
+    "InsurancePoliciesLibrary.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../InsurancePoliciesLibrary.Contracts/InsurancePoliciesLibrary.Contracts.csproj",
+      "msbuildProject": "../InsurancePoliciesLibrary.Contracts/InsurancePoliciesLibrary.Contracts.csproj"
+    },
+    "InsurancePoliciesLibrary.Impl/1.0.0": {
+      "type": "project",
+      "path": "../InsurancePoliciesLibrary.Impl/InsurancePoliciesLibrary.Impl.csproj",
+      "msbuildProject": "../InsurancePoliciesLibrary.Impl/InsurancePoliciesLibrary.Impl.csproj"
+    },
+    "InsurancePoliciesRepository.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../InsurancePoliciesRepository.Contracts/InsurancePoliciesRepository.Contracts.csproj",
+      "msbuildProject": "../InsurancePoliciesRepository.Contracts/InsurancePoliciesRepository.Contracts.csproj"
+    },
+    "InsurancePoliciesRepository.Impl/1.0.0": {
+      "type": "project",
+      "path": "../InsurancePoliciesRepository.Impl/InsurancePoliciesRepository.Impl.csproj",
+      "msbuildProject": "../InsurancePoliciesRepository.Impl/InsurancePoliciesRepository.Impl.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "InsurancePolicies.WebApi >= 1.0.0",
+      "InsurancePoliciesLibrary.Contracts >= 1.0.0",
+      "MSTest.TestAdapter >= 1.2.0",
+      "MSTest.TestFramework >= 1.2.0",
+      "Microsoft.AspNet.Mvc >= 5.2.4",
+      "Microsoft.AspNet.Mvc.es >= 5.2.4",
+      "Microsoft.AspNet.Razor >= 3.2.4",
+      "Microsoft.AspNet.Razor.es >= 3.2.4",
+      "Microsoft.AspNet.WebApi.Client >= 5.2.4",
+      "Microsoft.AspNet.WebApi.Client.es >= 5.2.4",
+      "Microsoft.AspNet.WebApi.Core >= 5.2.4",
+      "Microsoft.AspNet.WebApi.Core.es >= 5.2.4",
+      "Microsoft.AspNet.WebApi.WebHost >= 5.2.4",
+      "Microsoft.AspNet.WebApi.WebHost.es >= 5.2.4",
+      "Microsoft.AspNet.WebPages >= 3.2.4",
+      "Microsoft.AspNet.WebPages.es >= 3.2.4",
+      "Microsoft.Web.Infrastructure >= 1.0.0",
+      "NMock3 >= 3.5.44",
+      "Newtonsoft.Json >= 11.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\RUDY\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\RUDY\\Documents\\MyProjects\\Altran\\InsurancePoliciesWebAPI\\InsurancePolicies.WebApi.Tests\\InsurancePolicies.WebApi.Tests.csproj",
+      "projectName": "InsurancePolicies.WebApi.Tests",
+      "projectPath": "C:\\Users\\RUDY\\Documents\\MyProjects\\Altran\\InsurancePoliciesWebAPI\\InsurancePolicies.WebApi.Tests\\InsurancePolicies.WebApi.Tests.csproj",
+      "packagesPath": "C:\\Users\\RUDY\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\RUDY\\Documents\\MyProjects\\Altran\\InsurancePoliciesWebAPI\\InsurancePolicies.WebApi.Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\RUDY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {
+            "C:\\Users\\RUDY\\Documents\\MyProjects\\Altran\\InsurancePoliciesWebAPI\\InsurancePolicies.WebApi\\InsurancePolicies.WebApi.csproj": {
+              "projectPath": "C:\\Users\\RUDY\\Documents\\MyProjects\\Altran\\InsurancePoliciesWebAPI\\InsurancePolicies.WebApi\\InsurancePolicies.WebApi.csproj"
+            },
+            "C:\\Users\\RUDY\\Documents\\MyProjects\\Altran\\InsurancePoliciesWebAPI\\InsurancePoliciesLibrary.Contracts\\InsurancePoliciesLibrary.Contracts.csproj": {
+              "projectPath": "C:\\Users\\RUDY\\Documents\\MyProjects\\Altran\\InsurancePoliciesWebAPI\\InsurancePoliciesLibrary.Contracts\\InsurancePoliciesLibrary.Contracts.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "MSTest.TestAdapter": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
+          "MSTest.TestFramework": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
+          "Microsoft.AspNet.Mvc": {
+            "target": "Package",
+            "version": "[5.2.4, )"
+          },
+          "Microsoft.AspNet.Mvc.es": {
+            "target": "Package",
+            "version": "[5.2.4, )"
+          },
+          "Microsoft.AspNet.Razor": {
+            "target": "Package",
+            "version": "[3.2.4, )"
+          },
+          "Microsoft.AspNet.Razor.es": {
+            "target": "Package",
+            "version": "[3.2.4, )"
+          },
+          "Microsoft.AspNet.WebApi.Client": {
+            "target": "Package",
+            "version": "[5.2.4, )"
+          },
+          "Microsoft.AspNet.WebApi.Client.es": {
+            "target": "Package",
+            "version": "[5.2.4, )"
+          },
+          "Microsoft.AspNet.WebApi.Core": {
+            "target": "Package",
+            "version": "[5.2.4, )"
+          },
+          "Microsoft.AspNet.WebApi.Core.es": {
+            "target": "Package",
+            "version": "[5.2.4, )"
+          },
+          "Microsoft.AspNet.WebApi.WebHost": {
+            "target": "Package",
+            "version": "[5.2.4, )"
+          },
+          "Microsoft.AspNet.WebApi.WebHost.es": {
+            "target": "Package",
+            "version": "[5.2.4, )"
+          },
+          "Microsoft.AspNet.WebPages": {
+            "target": "Package",
+            "version": "[3.2.4, )"
+          },
+          "Microsoft.AspNet.WebPages.es": {
+            "target": "Package",
+            "version": "[3.2.4, )"
+          },
+          "Microsoft.Web.Infrastructure": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "NMock3": {
+            "target": "Package",
+            "version": "[3.5.44, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[11.0.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Degradación del paquete detectada: Newtonsoft.Json de 12.0.3 a 11.0.1. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n InsurancePolicies.WebApi.Tests -> InsurancePolicies.WebApi -> InsurancePoliciesRepository.Impl -> Newtonsoft.Json (>= 12.0.3) \r\n InsurancePolicies.WebApi.Tests -> Newtonsoft.Json (>= 11.0.1)",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win",
+        ".NETFramework,Version=v4.7.2/win-x64",
+        ".NETFramework,Version=v4.7.2/win-x86"
+      ]
+    }
+  ]
+}

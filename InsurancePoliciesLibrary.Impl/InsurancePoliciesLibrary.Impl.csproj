@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InsurancePoliciesLibrary.Contracts\InsurancePoliciesLibrary.Contracts.csproj" />
+    <ProjectReference Include="..\InsurancePoliciesRepository.Contracts\InsurancePoliciesRepository.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
